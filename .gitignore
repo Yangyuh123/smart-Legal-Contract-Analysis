@@ -1,0 +1,65 @@
+# IDE
+.idea/
+.vscode/
+*.iml
+*.iws
+*.ipr
+
+# Java
+target/
+*.class
+*.jar
+*.war
+.gradle/
+
+# Node
+node_modules/
+dist/
+.env.local
+.env.*.local
+.cache/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+env/
+*.egg
+.pytest_cache/
+.mypy_cache/
+
+# Uploads & Generated Data
+uploads/
+backend/uploads/
+ai-agent/data/
+ai-agent/.env
+
+# Docker volumes
+docker/mysql/data/
+docker/redis/data/
+docker/prometheus_data/
+docker/grafana_data/
+
+# OS
+.DS_Store
+Thumbs.db
+*.tmp
+*.swp
+*~
+
+# Environment
+.env
+!.env.example
+
+# Logs
+logs/
+*.log
+
+# Temp
+*.bak
+*.orig
+
+# Build output
+out/

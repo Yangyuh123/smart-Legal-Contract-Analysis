@@ -1,0 +1,306 @@
+// ============================================================
+// SmartLegal - Design System Variables
+// Legal Tech Professional Theme
+// ============================================================
+
+// -------------------------------------------------------------------
+// 1. Color Palette
+// -------------------------------------------------------------------
+$color-primary: #1a5fb4;
+$color-primary-light: #3584e4;
+$color-primary-lighter: #62a0ea;
+$color-primary-lightest: #b8d4f5;
+$color-primary-dark: #144b8c;
+$color-primary-bg: rgba(26, 95, 180, 0.08);
+
+$color-success: #26a269;
+$color-success-light: #33b074;
+$color-success-lighter: #57c28e;
+$color-success-lightest: #a8e6c4;
+$color-success-dark: #1b8151;
+$color-success-bg: rgba(38, 162, 105, 0.08);
+
+$color-warning: #e5a50a;
+$color-warning-light: #f5c211;
+$color-warning-lighter: #f8d34d;
+$color-warning-lightest: #fce9a4;
+$color-warning-dark: #b8860b;
+$color-warning-bg: rgba(229, 165, 10, 0.08);
+
+$color-danger: #c01c28;
+$color-danger-light: #d93040;
+$color-danger-lighter: #e35d68;
+$color-danger-lightest: #f4b6bb;
+$color-danger-dark: #99161f;
+$color-danger-bg: rgba(192, 28, 40, 0.08);
+
+$color-info: #3584e4;
+$color-info-light: #5096e9;
+$color-info-lighter: #7cb2f0;
+$color-info-lightest: #c4ddf7;
+$color-info-dark: #2563b0;
+$color-info-bg: rgba(53, 132, 228, 0.08);
+
+// -------------------------------------------------------------------
+// 2. Neutral Colors
+// -------------------------------------------------------------------
+$color-white: #ffffff;
+$color-black: #000000;
+
+$color-gray-50: #fafbfc;
+$color-gray-100: #f5f6fa;
+$color-gray-200: #ebeef5;
+$color-gray-300: #dcdfe6;
+$color-gray-400: #c0c4cc;
+$color-gray-500: #909399;
+$color-gray-600: #606266;
+$color-gray-700: #303133;
+$color-gray-800: #1f2d3d;
+$color-gray-900: #141a23;
+
+$color-text-primary: $color-gray-700;
+$color-text-regular: $color-gray-600;
+$color-text-secondary: $color-gray-500;
+$color-text-placeholder: $color-gray-400;
+$color-text-disabled: $color-gray-400;
+
+$color-border-base: $color-gray-300;
+$color-border-light: $color-gray-200;
+$color-border-lighter: $color-gray-100;
+$color-border-dark: $color-gray-400;
+
+// -------------------------------------------------------------------
+// 3. Sidebar Colors
+// -------------------------------------------------------------------
+$sidebar-bg: #1e1e2d;
+$sidebar-bg-hover: #2d2d3f;
+$sidebar-bg-active: rgba(26, 95, 180, 0.15);
+$sidebar-text: #a6a6b5;
+$sidebar-text-hover: #d0d0da;
+$sidebar-text-active: #ffffff;
+$sidebar-border: #2a2a3a;
+$sidebar-active-indicator: $color-primary;
+
+// -------------------------------------------------------------------
+// 4. Header
+// -------------------------------------------------------------------
+$header-bg: #ffffff;
+$header-height: 60px;
+$header-border-color: $color-gray-200;
+$header-text: $color-gray-700;
+
+// -------------------------------------------------------------------
+// 5. Layout Dimensions
+// -------------------------------------------------------------------
+$sidebar-width: 240px;
+$sidebar-collapsed-width: 64px;
+$header-height: 60px;
+$footer-height: 48px;
+$breadcrumb-height: 40px;
+$content-padding: 20px;
+$page-max-width: 1400px;
+
+// -------------------------------------------------------------------
+// 6. Border Radius
+// -------------------------------------------------------------------
+$radius-none: 0;
+$radius-sm: 4px;
+$radius-md: 6px;
+$radius-base: 6px;
+$radius-lg: 8px;
+$radius-xl: 12px;
+$radius-2xl: 16px;
+$radius-full: 50%;
+$radius-round: 9999px;
+
+// -------------------------------------------------------------------
+// 7. Box Shadows
+// -------------------------------------------------------------------
+$shadow-none: none;
+$shadow-sm: 0 1px 2px rgba(0, 0, 0, 0.04);
+$shadow-base: 0 2px 8px rgba(0, 0, 0, 0.06);
+$shadow-md: 0 4px 16px rgba(0, 0, 0, 0.08);
+$shadow-lg: 0 8px 32px rgba(0, 0, 0, 0.1);
+$shadow-xl: 0 12px 48px rgba(0, 0, 0, 0.12);
+$shadow-card: 0 2px 12px rgba(0, 0, 0, 0.06);
+$shadow-dropdown: 0 4px 16px rgba(0, 0, 0, 0.1);
+$shadow-dialog: 0 16px 48px rgba(0, 0, 0, 0.15);
+$shadow-header: 0 1px 4px rgba(0, 0, 0, 0.05);
+
+// -------------------------------------------------------------------
+// 8. Transitions
+// -------------------------------------------------------------------
+$transition-duration-fast: 0.15s;
+$transition-duration-base: 0.3s;
+$transition-duration-slow: 0.45s;
+$transition-ease: cubic-bezier(0.4, 0, 0.2, 1);
+$transition-ease-out: cubic-bezier(0, 0, 0.2, 1);
+$transition-ease-in: cubic-bezier(0.4, 0, 1, 1);
+$transition-all: all $transition-duration-base $transition-ease;
+$transition-colors: background-color $transition-duration-base $transition-ease,
+  border-color $transition-duration-base $transition-ease,
+  color $transition-duration-base $transition-ease;
+$transition-transform: transform $transition-duration-base $transition-ease;
+$transition-opacity: opacity $transition-duration-base $transition-ease;
+$transition-fade: opacity $transition-duration-fast $transition-ease;
+$transition-sidebar: width $transition-duration-base $transition-ease;
+
+// -------------------------------------------------------------------
+// 9. Typography
+// -------------------------------------------------------------------
+// Font Family
+$font-family-sans: 'Inter', 'PingFang SC', 'Microsoft YaHei', 'Helvetica Neue',
+  Helvetica, Arial, sans-serif;
+$font-family-mono: 'JetBrains Mono', 'Fira Code', 'Cascadia Code', 'Consolas',
+  'Monaco', 'Courier New', monospace;
+
+// Font Sizes
+$font-size-xs: 11px;
+$font-size-sm: 12px;
+$font-size-base: 14px;
+$font-size-md: 15px;
+$font-size-lg: 16px;
+$font-size-xl: 18px;
+$font-size-2xl: 20px;
+$font-size-3xl: 24px;
+$font-size-4xl: 30px;
+$font-size-5xl: 36px;
+
+// Font Weights
+$font-weight-light: 300;
+$font-weight-normal: 400;
+$font-weight-medium: 500;
+$font-weight-semibold: 600;
+$font-weight-bold: 700;
+
+// Line Heights
+$line-height-tight: 1.25;
+$line-height-normal: 1.5;
+$line-height-relaxed: 1.75;
+$line-height-loose: 2;
+
+// -------------------------------------------------------------------
+// 10. Spacing Scale
+// -------------------------------------------------------------------
+$spacing-none: 0;
+$spacing-xxs: 2px;
+$spacing-xs: 4px;
+$spacing-sm: 8px;
+$spacing-md: 12px;
+$spacing-base: 16px;
+$spacing-lg: 20px;
+$spacing-xl: 24px;
+$spacing-2xl: 32px;
+$spacing-3xl: 40px;
+$spacing-4xl: 48px;
+$spacing-5xl: 64px;
+$spacing-6xl: 80px;
+
+// -------------------------------------------------------------------
+// 11. Z-Index
+// -------------------------------------------------------------------
+$z-index-dropdown: 1000;
+$z-index-sticky: 1020;
+$z-index-fixed: 1030;
+$z-index-modal-backdrop: 1040;
+$z-index-modal: 1050;
+$z-index-popover: 1060;
+$z-index-tooltip: 1070;
+$z-index-loading: 2000;
+$z-index-notification: 3000;
+
+// -------------------------------------------------------------------
+// 12. Breakpoints
+// -------------------------------------------------------------------
+$breakpoint-xs: 480px;
+$breakpoint-sm: 640px;
+$breakpoint-md: 768px;
+$breakpoint-lg: 1024px;
+$breakpoint-xl: 1280px;
+$breakpoint-2xl: 1536px;
+
+// -------------------------------------------------------------------
+// 13. Risk Level Colors
+// -------------------------------------------------------------------
+$risk-high: #c01c28;
+$risk-high-bg: rgba(192, 28, 40, 0.08);
+$risk-high-border: rgba(192, 28, 40, 0.3);
+$risk-medium: #e5a50a;
+$risk-medium-bg: rgba(229, 165, 10, 0.08);
+$risk-medium-border: rgba(229, 165, 10, 0.3);
+$risk-low: #26a269;
+$risk-low-bg: rgba(38, 162, 105, 0.08);
+$risk-low-border: rgba(38, 162, 105, 0.3);
+
+// Risk level to color map (for programmatic use)
+$risk-colors: (
+  'high': $risk-high,
+  'medium': $risk-medium,
+  'low': $risk-low,
+);
+
+// -------------------------------------------------------------------
+// 14. Status Colors
+// -------------------------------------------------------------------
+$status-pending: #e5a50a;
+$status-processing: #3584e4;
+$status-completed: #26a269;
+$status-failed: #c01c28;
+$status-cancelled: #909399;
+$status-draft: #909399;
+$status-published: #1a5fb4;
+$status-archived: #909399;
+
+// -------------------------------------------------------------------
+// 15. Component-Specific Variables
+// -------------------------------------------------------------------
+// Table
+$table-header-bg: #fafbfc;
+$table-header-color: $color-gray-600;
+$table-stripe-bg: #fafbfc;
+$table-hover-bg: #f0f4ff;
+$table-border-color: $color-gray-200;
+$table-row-height: 48px;
+$table-font-size: $font-size-base;
+
+// Form
+$form-label-color: $color-gray-600;
+$form-label-font-size: $font-size-base;
+$form-input-bg: $color-white;
+$form-input-border: $color-gray-300;
+$form-input-focus-border: $color-primary;
+$form-input-focus-shadow: 0 0 0 2px $color-primary-bg;
+$form-input-hover-border: $color-primary-light;
+$form-disabled-bg: $color-gray-100;
+
+// Button
+$button-radius: $radius-md;
+$button-font-weight: $font-weight-medium;
+$button-padding-horizontal: 20px;
+$button-padding-vertical: 10px;
+
+// Card
+$card-radius: $radius-lg;
+$card-shadow: $shadow-card;
+$card-padding: $spacing-xl;
+$card-bg: $color-white;
+
+// Tag
+$tag-radius: $radius-sm;
+
+// -------------------------------------------------------------------
+// 16. Sizes Map (for generating utility classes)
+// -------------------------------------------------------------------
+$sizes: (
+  'none': $spacing-none,
+  'xs': $spacing-xs,
+  'sm': $spacing-sm,
+  'md': $spacing-md,
+  'base': $spacing-base,
+  'lg': $spacing-lg,
+  'xl': $spacing-xl,
+  '2xl': $spacing-2xl,
+  '3xl': $spacing-3xl,
+  '4xl': $spacing-4xl,
+  '5xl': $spacing-5xl,
+);
